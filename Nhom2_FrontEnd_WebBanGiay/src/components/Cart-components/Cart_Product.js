@@ -168,7 +168,7 @@ const Cart_Product = () => {
                   </div>
                   <div className="favorite favorite_left"></div>
                   <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
-                    <span>-20</span>
+                    <span>-20%</span>
                   </div>
                   <div
                     className="product_info"

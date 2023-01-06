@@ -31,7 +31,7 @@ const Contact = () => {
             <div className="contact_contents">
               <h1 data-aos="fade-left">Contact</h1>
               <p data-aos="fade-left">
-                There are many way to contact us. One of them cút mẹ
+                There are many way to contact us
               </p>
               <div data-aos="zoom-in-down">
                 <p>(+84)978400321</p>

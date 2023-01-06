@@ -2,6 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
 // import Home from "./pages/Home/Home";
+import Blog from "./pages/Blog/Blog"; 
 import Cart from "./pages/Cart/Cart";
 import Product from "./pages/Product/Product";
 import NotFound from "./pages/NotFound/NotFound";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/category/detail/:empid" element={<Category_Detail />} />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog/>} />
 
           <Route path="/" element={<Cart_Product />} />
           <Route path="*" element={<NotFound />} />

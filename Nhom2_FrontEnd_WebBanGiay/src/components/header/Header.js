@@ -114,7 +114,7 @@ const HeaderWeb = ({ setShow, size }) => {
                         <Link to="/category">Category</Link>
                       </li> */}
                       <li>
-                        <Link>blog</Link>
+                        <Link to="/Blog">Blog</Link>
                       </li>
                       <li>
                         <Link to="/contact">contact</Link>
